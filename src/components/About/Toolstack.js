@@ -1,30 +1,34 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiVisualstudiocode,
-  SiPostman,
-  SiSlack,
-  SiVercel,
-  SiMacos,
+  SiFacebook,
+  SiInstagram,
+  SiTwitter,
+  SiLinkedin,
+  SiYoutube,
+  SiSlack
 } from "react-icons/si";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
+        <SiFacebook />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiInstagram />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiTwitter />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLinkedin />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiYoutube />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSlack />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
       </Col>
     </Row>
   );
